@@ -1,0 +1,20 @@
+const {Router} = require('express')
+const authorsController = require('../controllers/authors.controller')
+const contactsController = require('../controllers/contacts.controller')
+const indexController = require('../controllers/index.controller')
+const muhinaController = require('../controllers/muhina.controller')
+const poemsController = require('../controllers/poems.controller')
+const tckachenkoController = require('../controllers/tckachenko.controller')
+const router = Router()
+
+router.get('/', indexController.index)
+router.get('/authors', authorsController.getAllAuthors)
+router.get('/poems', poemsController.getPoems)
+router.get('/contacts', contactsController.getContacts)
+router.get('/authors/muhina', muhinaController.getAllPoems)
+router.get('/authors/tckachenko', tckachenkoController.getAllPoems)
+router.get('/authors/tckachenko/firstpoem', tckachenkoController.getFirstPoem)
+router.get('/authors/muhina/naf', muhinaController.getNafPoem)
+router.get('/authors/muhina/forpiano', muhinaController.getForpianoPoem)
+
+module.exports = router

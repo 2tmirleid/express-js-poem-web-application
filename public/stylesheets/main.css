@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Joan';
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url("https://sun9-86.userapi.com/impf/raGpPcb7Ym7P1OzN6UtjHhETuapER5CTnBYukg/RWwl0fakjRE.jpg?size=1600x893&quality=95&sign=3271362371bac290a62828cf4c3b8618&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width : 420px) {
+    body {
+        background-size: auto; 
+    }  
+}

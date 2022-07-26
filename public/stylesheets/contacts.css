@@ -1,0 +1,9 @@
+.contact-images {
+    text-align: center;
+    color: white;
+}
+
+.contact-images a {
+    padding-right: 5px;
+    font-size: 20px;
+}

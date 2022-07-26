@@ -1,0 +1,40 @@
+.inner-width a{
+    color: white;
+}
+
+header {
+    height: 70px;
+    background-color: black;
+}
+
+.inner-width {
+    max-width: 1500px;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.navigation-menu {
+    font-size: 20px;
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+}
+
+.navigation-menu a {
+    margin-left: 10px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+}
+
+.navigation-menu a:hover {
+    background: white;
+    color: black;
+}

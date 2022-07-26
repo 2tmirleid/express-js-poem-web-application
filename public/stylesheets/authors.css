@@ -1,0 +1,89 @@
+.authors {
+    font-size: 20px;
+}
+
+.author-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.author-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.authors a {
+    color: white;
+}
+
+.author-img img {
+    margin-top: 2%;
+    float: left;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.authors img {  
+    width: 50%;
+    height: 30%;
+}
+
+.authors p {
+    text-align: center;
+    color: white;
+}
+
+.authors .button a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+    padding-top: 8px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    color: black;
+}
+
+.author-card .button a:hover {
+    transform: scale(1.1);
+}
+
+.author-card img:hover {
+    transform: scale(1.1);
+}
+
+.authors ul li {
+    text-align: center;
+}
+
+.poems {
+    float: right;
+}
+
+.poems p a {
+    color: white;
+    font-size: 20px;
+}
+
+.poem-container {
+    margin-top: 2%;
+    left: 50%;
+    width: 30%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+
+

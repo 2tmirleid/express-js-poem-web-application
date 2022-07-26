@@ -1,0 +1,9 @@
+.collection {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.collection a {
+    color: black;
+}
